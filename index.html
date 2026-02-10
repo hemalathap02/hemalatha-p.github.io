@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hemalatha P | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#e5e7eb;
+}
+
+/* HEADER NAME ONLY */
+.top-name{
+    padding:25px 60px;
+    background:#020617;
+}
+.top-name h2{
+    color:#fb7185;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:90px 60px;
+}
+.hero-text{
+    max-width:550px;
+}
+.hero-text span{
+    color:#a78bfa;
+    font-style:italic;
+}
+.hero-text h1{
+    font-size:3rem;
+    margin:15px 0;
+}
+.hero-text p{
+    font-size:15px;
+    line-height:1.8;
+    opacity:0.9;
+}
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 28px;
+    background:#fb7185;
+    color:#020617;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+/* IMAGE */
+.hero-img img{
+    width:280px;
+    border-radius:50%;
+    border:6px solid #1e293b;
+}
+
+/* SECTIONS */
+section{
+    padding:70px 60px;
+}
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#a78bfa;
+}
+
+/* CARDS */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+.card{
+    background:#020617;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    font-size:14px;
+    opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAME BAR -->
+<div class="top-name">
+    <h2>Hemalatha</h2>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <div class="hero-text">
+        <span>Do you know me?</span>
+        <h1>👋 I'm Hemalatha P</h1>
+        <p>
+            Aspiring Software Developer seeking opportunities to apply skills in Java,
+            clean coding practices, problem solving, and database management to build
+            reliable, user-centric software products.
+        </p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+
+    <div class="hero-img">
+        <img src="hema.jpg" alt="Hemalatha Photo">
+    </div>
+</div>
+
+<!-- SKILLS -->
+<section>
+    <h2>Technical Skills</h2>
+    <div class="grid">
+        <div class="card">Java (Core Java, OOP, Collections, Multithreading – foundational)</div>
+        <div class="card">Data Structures: Arrays, Strings, Hashing</div>
+        <div class="card">Web Technologies: HTML, CSS</div>
+        <div class="card">SQL, Git & GitHub, VS Code</div>
+    </div>
+</section>
+
+<!-- PROJECT -->
+<section>
+    <h2>Project</h2>
+    <div class="card">
+        <h3 style="color:#fb7185;">Sentiment Analysis Using NLP for Online Trading</h3>
+        <ul style="margin-top:15px; padding-left:20px; line-height:1.8;">
+            <li>Developed ML-based application following SDLC</li>
+            <li>Applied NLP techniques for sentiment classification</li>
+            <li>Performed data preprocessing and cleaning</li>
+            <li>Visualized sentiment trends using Matplotlib</li>
+        </ul>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+    <h2>Education</h2>
+    <div class="card" style="text-align:center;">
+        <h3>B.Tech – Information Technology</h3>
+        <p>Panimalar Engineering College, Chennai</p>
+        <p><strong>CGPA:</strong> 8.9 (2022 – 2026)</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card" style="text-align:center;">
+        <p>📧 hemalathapormannan@gmail.com</p>
+        <p>📞 6369994157</p>
+        <p>🔗 linkedin.com/in/hemalatha-p02</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Hemalatha P | Portfolio
+</footer>
+
+</body>
+</html>
